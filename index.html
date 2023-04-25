@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./src/CSS/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Advice generator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div id="contentContainer">
+    <h1 id="heading">ADVICE #</h1>
+    <p id="quote">
+      “Click the dice to get your advice!”
+    </p>
+    <div class="loading-container" id="loadingContainer">
+      <div class="loading"></div>
+      <div id="loading-text">Looking for advice...</div>
+    </div>
+    <div id="imgContainer">
+      <picture>
+        <source media="(min-width:1024px)" srcset="./images/pattern-divider-desktop.svg">
+        <img src="./images/pattern-divider-mobile.svg" alt="just a decorative devider">
+      </picture>
+    </div>
+    <div id="diceContainer">
+      <img src="./images/icon-dice.svg" alt="Icon Dice">
+    </div>
+  </div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Leon Moore</a>.
+  </div>
+  <script src="./index.js" defer></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</body>
+</html>
