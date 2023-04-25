@@ -74,6 +74,7 @@ html body #contentContainer #diceContainer {
   left: 50%;
   transform: translate(-50%, -50%);
   cursor: pointer;
+  transition: box-shadow 0.5s;
 }
 html body #contentContainer #loadingContainer {
   display: none;

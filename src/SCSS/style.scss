@@ -93,6 +93,9 @@ html {
                 left: 50%;
                 transform: translate(-50%, -50%);
                 cursor: pointer ;
+                transition: box-shadow .5s;
+
+
             }
 
             #loadingContainer {
